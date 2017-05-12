@@ -10,8 +10,8 @@ public class Dao {
 	static int[] ans=new int[5];
 	private static String driver="com.mysql.jdbc.Driver";
 	private static String url="jdbc:mysql://ec2-50-19-213-178.compute-1.amazonaws.com:3306/satya1989";
-	private static String username="satyadb";
-	private static String password="java";
+	private static String username="user";
+	private static String password="password";
 private static Connection con=null;
 private static ResultSet rs=null;
 public static int[] get_ans()
