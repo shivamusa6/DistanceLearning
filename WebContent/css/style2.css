@@ -1,0 +1,105 @@
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
+	display:block;
+}
+mark, rp, rt, ruby, summary, time {
+	display:inline;
+}
+.pad_left1 {
+	padding-left:12px;
+}
+.pad_bot1 {
+	padding-bottom:13px;
+}
+.pad {
+	padding:0 12px;
+}
+#slider {
+	margin-top:6px;
+	height:270px;
+	width:100%;
+	overflow:visible;
+	background:url(../images/bg_slider.png) 0 0 no-repeat;
+	overflow:hidden;
+	padding-bottom:14px;
+}
+#for_img {
+	padding-left:91px;
+	padding-top:14px;
+	width:342px;
+	height:225px;
+	overflow:visible;
+	padding-right:77px;
+}
+#nivo_slider {
+	position:relative;
+	width:342px;
+	height:225px;
+	z-index:88;
+}
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:150%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+.nivo-directionNav a {
+	position:absolute;
+	top:90px;
+	z-index:99;
+	cursor:pointer;
+	text-indent:-5000px;
+	width:52px;
+	height:45px;
+	display:block;
+}
+.nivo-prevNav {
+	left:-77px;
+	background:url(../images/marker_left.png) right 0 no-repeat;
+}
+.nivo-prevNav:hover, .nivo-nextNav:hover {
+	background-position:bottom;
+}
+.nivo-nextNav {
+	right:-22px;
+	background:url(../images/marker_right.png) left 0 no-repeat;
+}
+.nivo-controlNav {
+	position:absolute;
+	z-index:99;
+	right:0;
+	bottom:0px;
+	padding:10px;
+	background:url(../images/bg_pagination.png) repeat;
+	padding-left:222px;
+}
+.nivo-controlNav a {
+	position:relative;
+	z-index:99;
+	cursor:pointer;
+	width:19px;
+	height:19px;
+	float:left;
+	margin-left:3px;
+	background:url(../images/buttons.png) no-repeat;
+	font-size:12px;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	line-height:19px;
+}
+.nivo-controlNav a.active, .nivo-controlNav a:hover {
+	color:#ab0000;
+	font-weight:bold;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="pro1">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="mail.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mail/mail">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-2.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-io-2.2/commons-io-2.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="db2jcc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/db2jcc/db2jcc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="db2jcc_license_cu.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/db2jcc_license_cu/db2jcc_license_cu">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.3/commons-fileupload-1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="pro1"/>
+        <property name="java-output-path" value="/pro1/build/classes"/>
+    </wb-module>
+</project-modules>
